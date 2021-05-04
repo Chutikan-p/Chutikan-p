@@ -1,0 +1,115 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>booking</title>
+</head>
+
+<body>
+
+    <form action="booing.php">
+        <table>
+            <tr>
+                <th colspan="2" style="text-align: left;">Flying from</th>
+                <th colspan="2" style="text-align: left;">To</th>
+            </tr>
+            <tr>
+                <th colspan="2" >
+                    <select name="City">
+                    <option>Karachi,Pakistan</option>
+                    <option>Isamabad,Pakistan</option>
+                    <option>Doha,Qatar</option>
+                    <option>Dubai,UAE</option>
+                    </select>
+                </th>
+                <th colspan="2" >
+                    <select name="City" value="Destination">
+                    <option>Karachi,Pakistan</option>
+                    <option>Isamabad,Pakistan</option>
+                    <option>Doha,Qatar</option>
+                    <option>Dubai,UAE</option>
+                    </select>
+            	</th>
+            </tr>
+            <tr>
+                <th colspan="2" style="text-align:left">Departing</th>
+                <th colspan="2" style="text-align: left;">Returning</th>
+            </tr>
+            <tr>
+            	<th colspan="2"> 
+       			 	<input type="date" id="departure date">
+      			</th>
+
+     			<th colspan="2">
+        			<input type="date" id="arrival date">
+      			</th>
+            </tr>
+            <tr>
+                <th style="text-align: left;">Adult</th>
+                <th style="text-align: left;">Child</th>
+                <th style="text-align: left;">Infant</th>
+                <th style="text-align: left;">Currency</th>
+            </tr>
+            <tr>
+                <th>
+                    <select name="Number">
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                </th>
+                <th>
+                    <select name="Number">
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                </th>
+                <th>
+                    <select name="Number">
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                </th>
+                <th>
+                    <select name="Currency">
+                        <option>USD</option>
+                        <option>EUR</option>
+                        <option>GBP</option>
+                        <option>PKR</option>
+                        <option>THB</option>
+                    </select>
+                </th>
+            </tr>
+        </table>
+        <br>
+        <input type="button" value="Search">
+    </form>
+</body>
